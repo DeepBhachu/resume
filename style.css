@@ -177,7 +177,7 @@ nav ul li a{
 .what h2::after{
     content: '';
     width: 100%;
-    height: 3px;
+    height: 2px;
     display: flex;
     background: #007BEA;
     position: absolute;
@@ -240,7 +240,7 @@ padding-bottom: 10px;
 .testimonials h2::after{
     content: '';
     width: 100%;
-    height: 3px;
+    height: 2px;
     display: flex;
     background: #007BEA;
     position: absolute;
@@ -346,13 +346,13 @@ padding-bottom: 10px;
     justify-content: center;
 }
 .nav1 {
-    height: 4px;
+    height: 2px;
     width: 40px;
     border-radius: 10px;
     background-color: #007BEB;
 }
 .nav2 {
-    height: 4px;
+    height: 2px;
     width: 20px;
     border-radius: 10px;
     background-color: #8c8c8d;
@@ -374,7 +374,7 @@ padding-bottom: 10px;
     .clientmain h2::after{
         content: '';
         width: 100%;
-        height: 3px;
+        height: 2px;
         display: flex;
         background: #007BEA;
         position: absolute;
@@ -386,4 +386,305 @@ padding-bottom: 10px;
     align-items: center;
     gap: 75px;
     margin: 0 50px 0 50px;
+}
+
+.clientM {
+
+    font-size: 14px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 1em;
+    color: #8c8c8d;
+  }
+
+  
+
+  .clientL{
+    font-size: 26px;
+    position: relative;
+    color: #8c8c8d;
+  }
+
+  .clientL::before,
+  .clientL::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #8c8c8d;
+    
+  }
+  .clientL::before {
+    position: absolute;
+    top: 4px;
+  }
+
+  .clientL::after {
+    position: absolute;
+    Bottom: 4px;
+  }
+  
+
+  .clientSW {
+
+    font-size: 20px;
+    color: #8c8c8d;
+
+  }
+  
+  .clientG {
+    display: flex;
+    color: #8c8c8d;
+    font-weight: 300;
+  }
+
+  .clientG p
+  {
+    font-weight: 600;
+  }
+
+  .clientD
+  {
+    font-weight: 300;
+    display: flex;
+    color: #8c8c8d;
+
+
+    
+  }
+
+  .clientD p {
+
+    font-weight: 500;
+
+  }
+  
+  
+  .clientD span::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #8c8c8d;
+  }
+
+  .clientD p::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #8c8c8d;
+  }
+
+  .clientl{
+    font-size: 30px;
+    font-weight: 750;
+    color: #8c8c8d;
+
+}
+
+.navigationbar {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+.navbar1 {
+    height: 2px;
+    width: 40px;
+    border-radius: 10px;
+    background-color: #007BEB;
+}
+.navbar2 {
+    height: 2px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: #8c8c8d;
+}
+
+/* Client section end here */
+
+
+/* facts section start here */
+
+.factcontainer{
+    color: white;
+}
+.factcontainer h2{
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    }
+    .factcontainer h2::after{
+        content: '';
+        width: 100%;
+        height: 2px;
+        display: flex;
+        background: #007BEA;
+        position: absolute;
+        border-radius: 10px;
+    }
+  
+  .card-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    border: solid 1px #8c8c8d;
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+  }
+  
+  .card h3 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 400;
+  }
+  
+  .card p {
+    margin-bottom: 10px;
+    
+  }
+
+  
+  .card .icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #007BEB;
+  }
+  
+  .card .number {
+    font-size: 50px;
+    font-weight: 400;
+  }
+/* Fact section end here */
+
+/* Pricing section start here */
+
+
+.pricecontainer{
+    color: white;
+}
+.pricecontainer h2{
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    }
+    .pricecontainer h2::after{
+        content: '';
+        width: 100%;
+        height: 2px;
+        display: flex;
+        background: #007BEA;
+        position: absolute;
+        border-radius: 10px;
+    }
+  .pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .pricing-card {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 335px;
+    margin: 0 20px;
+    border: solid 1px #8c8c8d;
+  }
+  
+  .pricing-card h3 {
+    font-weight: 250;
+
+  }
+  
+  
+  .pricing-card .price {
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: -8px;
+    margin-top: 20px;
+  }
+  
+  .pricing-card .per {
+    margin-top: 0;
+    font-weight: 200;
+    font-size: 12px;
+    }
+
+  .pricing-card .description {
+    margin-bottom: 20px;
+    margin-top: 30px;
+    line-height: 2em;
+  }
+  
+
+      
+ .pricing-card button {
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: #3333;
+    padding: 12px 30px;
+    border-radius: 25px;
+    border: 2px solid #007BEB;
+    transition: .5s ease;
+    }
+
+ 
+
+ .pricing-card button:hover {background-color: #007BEB}
+
+ /* Pricing section end here */
+
+ /* Footer section start here */
+
+ .footer {
+    margin-top: 60px;
+    margin-bottom: -20px;
+    border-top: solid 1px #8c8c8d;
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer ul {
+    width: 100%;
+}
+
+.footer .leftfooter {
+    display: flex;
+    
+}
+
+.rightfooter {
+    color: #8c8c8d;  
+    
+}
+
+
+nav a:hover {
+    opacity: 1;
+
 }
